@@ -12,6 +12,7 @@ import { SideNavComponent } from './components/side-nav/side-nav.component';
 import { ToolbarComponent } from "./components/toolbar/toolbar.component";
 import { UserService } from './services/user.service';
 import { HttpClientModule } from '@angular/common/http';
+import { NotesComponent } from './components/notes/notes.component';
 
 
 const routes:Routes = [
@@ -29,7 +30,8 @@ const routes:Routes = [
     ContactmanagerAppComponent,
     MainContentComponent,
     SideNavComponent,
-    ToolbarComponent
+    ToolbarComponent,
+    NotesComponent
   ],
   imports: [
     CommonModule,
